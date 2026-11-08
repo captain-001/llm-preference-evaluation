@@ -1,0 +1,6 @@
+method,original_samples,original_accuracy_pct,swapped_samples,swapped_accuracy_pct,swapped_minus_original_pp,raw_p_value,holm_adjusted_p_value,significant_after_correction
+Baseline,49,57.1429,47,65.9574,8.8146,0.4078,1.0,False
+Few-shot,49,61.2245,47,61.7021,0.4776,1.0,1.0,False
+Chain-of-Thought,49,65.3061,47,68.0851,2.779,0.8305,1.0,False
+Self-consistency,49,65.3061,47,61.7021,-3.604,0.8325,1.0,False
+Multi-agent,49,55.102,47,68.0851,12.9831,0.2139,1.0,False

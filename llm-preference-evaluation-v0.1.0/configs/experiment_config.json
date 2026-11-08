@@ -1,0 +1,49 @@
+{
+  "project": "LLM Preference Evaluation",
+  "version": "0.1.0",
+  "model": "deepseek-chat",
+  "provider": "DeepSeek",
+  "client": "langchain-deepseek",
+  "temperatures": {
+    "baseline": 0,
+    "few_shot": 0,
+    "chain_of_thought": 0,
+    "self_consistency": 0.7,
+    "multi_agent_evaluators": 0,
+    "coordinator": 0
+  },
+  "self_consistency_votes": 5,
+  "dataset": {
+    "source": "Course-provided Task 2 JSONL dataset",
+    "url": "https://NLP-course-cuhksz.github.io/Assignments/Assignment1/task2/data/1.rlhf.jsonl",
+    "original_samples": 100,
+    "few_shot_samples": 4,
+    "evaluation_samples": 96,
+    "few_shot_sample_ids": [
+      7,
+      13,
+      84,
+      99
+    ],
+    "original_preference_counts": {
+      "Answer1": 55,
+      "Answer2": 45
+    },
+    "evaluation_answer_order_counts": {
+      "Original": 49,
+      "Swapped": 47
+    }
+  },
+  "seeds": {
+    "answer_order_randomization": 2026,
+    "few_shot_selection": 42
+  },
+  "methods": [
+    "zero_shot_baseline",
+    "few_shot",
+    "chain_of_thought",
+    "self_consistency",
+    "multi_agent"
+  ],
+  "note": "Descriptive snapshot of the current notebook settings. This JSON file is documentation and is not yet loaded by the notebook."
+}

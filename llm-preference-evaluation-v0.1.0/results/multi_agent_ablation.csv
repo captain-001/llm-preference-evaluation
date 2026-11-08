@@ -1,0 +1,5 @@
+configuration,accuracy_pct,correct_samples,unresolved_samples,initial_agreement_pct,coordinator_escalation_pct,accuracy_change_vs_full_pp
+Full Multi-Agent,61.4583,59,0,71.875,28.125,0.0
+Without Accuracy Evaluator,63.5417,61,0,82.2917,17.7083,2.0833
+Without Helpfulness Evaluator,62.5,60,0,86.4583,13.5417,1.0417
+Without Quality and Safety Evaluator,65.625,63,0,75.0,25.0,4.1667

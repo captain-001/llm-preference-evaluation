@@ -1,0 +1,8 @@
+langchain-core
+langchain-deepseek
+numpy
+pandas
+matplotlib
+tqdm
+scipy
+scikit-learn

@@ -1,0 +1,6 @@
+method,samples,accuracy_pct,valid_output_pct,avg_latency_seconds,avg_total_tokens_per_pair,macro_f1_pct
+Zero-shot baseline,96,61.4583,100.0,0.989,246,59.8871
+Few-shot,96,61.4583,100.0,1.019,1073,61.1166
+Chain-of-Thought,96,66.6667,98.9583,2.545,506,66.094
+Self-consistency,96,63.5417,100.0,8.103,1545,62.8606
+Multi-agent,96,61.4583,100.0,5.337,1143,61.1166

@@ -1,0 +1,5 @@
+test,outcome,test_statistic,p_value_reported,effect_or_interval,interpretation
+Cochran_Q,overall_accuracy,1.92,0.7505,,No significant overall accuracy difference
+McNemar_exact,CoT_vs_baseline_accuracy,,0.3323,"Holm-adjusted p=1.000; 95% bootstrap CI=[-3.13, 13.54] pp",Not significant after correction
+Friedman,latency,364.14,<0.001,Kendall_W=0.948,Significant cost difference
+Friedman,total_tokens,338.13,<0.001,Kendall_W=0.881,Significant cost difference
